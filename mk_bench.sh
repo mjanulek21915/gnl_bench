@@ -21,7 +21,6 @@ fi
 
 if [ -f "a.out" ]
 then
-	echo "executable already exists, deleting"
 	rm a.out
 fi
 
