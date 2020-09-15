@@ -1,7 +1,7 @@
 GNL BENCH
 
 
-Installation:
+INSTALLATION:
 
 	Aucune. Cloner ce repo à convénience.
 
@@ -13,7 +13,7 @@ Installation:
 	mais aussi: /Users/aaa/truc/brol/gnl_bench/get_next_line
 
 
-Configuration:
+CONFIGURATION:
 
 	Dans les scripts mk_bench.sh et mk_fd_error.sh, il y a deux variables qui permettent de controler 
 	deux détails du fonctionnement de cet outil.
@@ -30,7 +30,7 @@ Configuration:
 	Les fichiers correspondants sont inclus dans le git.
 
 
-Utilisation:
+UTILISATION:
 
 	./mk_bench.sh [TAILLE BUFFER] [ITERATIONS]
 	./mk_fd_error.sh [TAILLE BUFFER] [ITERATIONS]
@@ -44,7 +44,7 @@ Utilisation:
 		Simule une erreur de file descriptor a la 3eme itération. (valeurs par défaut)
 	
 
-Description:
+DESCRIPTION:
 
 	Cet outil est composé de deux scripts, deux main et un fichier de configuration: mk_bench.sh, 
 	mk_fd_error.sh, les main correspondants, main_bench.c et main_fd_error.c, 
@@ -67,6 +67,7 @@ Description:
 
 	Ces scripts sont faits de sorte à détecter l'environnement dans lequel ils sont lancés. 
 	aucun changement aux fichiers .h n'est nécéssaire pour ajuster le fonctionnement entre mac et linux.
+
 
 
 TODO:
