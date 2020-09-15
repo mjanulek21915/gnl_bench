@@ -61,7 +61,8 @@ DESCRIPTION:
 	sont employés (ainsi que les fichiers-texte correspondants).
 
 	La différence entre mk_bench.sh et mk_fd_error.sh est que ce dernier simule une erreur 
-	de file descriptor lors de la lecture de la dernière iteration (que celle-ci soit une ligne valide ou une ligne vide).
+	de file descriptor lors de la lecture de la dernière iteration, que celle-ci soit une ligne 
+	valide ou une ligne vide.
 
 	Si aucun argument est fourni, mk_bench.sh compile avec une taille buffer egale a 1, et apellera gnl 1 fois.
 	Si aucun argument est fourni, mk_fd_error.sh compile avec une taille buffer egale a 1, et apellera gnl 3 fois, 
