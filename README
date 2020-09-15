@@ -53,7 +53,7 @@ CONFIGURATION:
 	La variable gnl définit le nom du dossier où se trouveront les fichiers de get_next_line.
 	Par défaut, cette variable est définie à "get_next_line".
 
-	Le fichier "liste_fichiers" contient les noms des fichiers avec lesquels get_next_line sera testé.
+	Le fichier "liste_fichiers" contient les noms des fichiers texte avec lesquels get_next_line sera testé.
 	A modifier à convénience.
 	Les noms de fichier devront être séparés par un espace, une tabulation, ou un retour a la ligne. 
 	Ce fichier est déjà configuré. 
