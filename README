@@ -71,7 +71,7 @@ DESCRIPTION:
 	aucun changement aux fichiers .h n'est nécéssaire pour ajuster le fonctionnement entre mac et linux.
 
 	Compile avec le flag -fsanitize=address pour un contrôle basique des fuites de mémoire.
-	pour un test complet, lancer valgrind avec le nom de l executable en paramètre (si possible. Ah guacamole, cruelle maitresse...).
+	pour un test complet, lancer valgrind avec le nom de l executable en paramètre.
 
 TODO:
 	La version suivante contiendra un script dédié aux tests avec plusieurs descripteurs fichier.
