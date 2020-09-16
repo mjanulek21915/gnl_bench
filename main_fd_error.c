@@ -1,4 +1,5 @@
 #include "get_next_line.h"
+#include "limits.h"
 
 int mini_atoi(char *str)
 {
